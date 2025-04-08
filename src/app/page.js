@@ -82,9 +82,21 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4" dir="rtl">
       <div className="w-full max-w-md bg-white p-6 rounded-xl shadow-md">
-        <div className="flex gap-3 items-center mb-4">
+        <div className="flex flex-col gap-3 items-center mb-4 justify-center">
           <Image src="/images/images.png" alt="icon" width={50} height={50} />
-          <span className="text-2xl font-semibold text-gray-800">تسجيل الدخول</span>
+          <div className="relative w-[120px] h-[120px] rounded-full overflow-hidden">
+            <Image
+              src="/images/brightVision.jpg"
+              alt="icon"
+              width={120}
+              height={120}
+              className="rounded-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black opacity-35 rounded-full" />
+
+          </div>
+          <p className="text-2xl font-bold">Bright Vision</p>
+          {/* <span className="text-2xl font-semibold text-gray-800">تسجيل الدخول</span> */}
         </div>
 
         <div className="text-gray-700 mb-6 leading-relaxed">

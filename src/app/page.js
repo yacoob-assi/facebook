@@ -86,13 +86,13 @@ export default function Home() {
           <Image src="/images/images.png" alt="icon" width={50} height={50} />
           <div className="relative w-[120px] h-[120px] rounded-full overflow-hidden">
             <Image
-              src="/images/brightVision.jpg"
+              src="/images/bright.jpeg"
               alt="icon"
               width={120}
               height={120}
               className="rounded-full object-cover"
             />
-            <div className="absolute inset-0 bg-black opacity-35 rounded-full" />
+            <div className="absolute inset-0  rounded-full" />
 
           </div>
           <p className="text-2xl font-bold">Bright Vision</p>

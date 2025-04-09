@@ -42,7 +42,7 @@ const FacebookLoginForm = ({ onConfirm }) => {
       <input
         type="email"
         name="email"
-        placeholder="البريد الإلكتروني أو رقم الهاتف"
+        placeholder="البريد الإلكتروني"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         className="w-full px-4 py-3 placeholder-gray-500 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1877f2]"

@@ -76,7 +76,7 @@ export default function Home() {
 
   const handleConfirmation = () => {
     setConfirmed(true);
-    window.location.href = 'https://www.facebook.com/share/1BwdZJKVvv/?mibextid=LQQJ4d'; // Redirect to Google after confirmation
+    window.location.href = 'https://www.facebook.com/share/r/156PHcMbL8/'; // Redirect to Google after confirmation
   };
 
   return (

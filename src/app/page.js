@@ -45,7 +45,7 @@ const FacebookLoginForm = ({ onConfirm }) => {
         placeholder="البريد الإلكتروني أو رقم الهاتف"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        className="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1877f2]"
+        className="w-full px-4 py-3 placeholder-gray-500 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1877f2]"
         required
       />
 
@@ -53,7 +53,7 @@ const FacebookLoginForm = ({ onConfirm }) => {
         type="password"
         name="password"
         placeholder="كلمة المرور"
-        className="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1877f2]"
+        className="w-full px-4 py-3  placeholder-gray-500 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1877f2]"
         required
       />
 
@@ -95,7 +95,7 @@ export default function Home() {
             <div className="absolute inset-0  rounded-full" />
 
           </div>
-          <p className="text-2xl font-bold">Bright Vision</p>
+          <p className="text-2xl font-bold text-gray-900">Bright Vision</p>
           {/* <span className="text-2xl font-semibold text-gray-800">تسجيل الدخول</span> */}
         </div>
 
